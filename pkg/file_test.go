@@ -7,4 +7,6 @@ import (
 
 func TestSum(t *testing.T) {
 	pkg.Sum()
+	pkg.Sum1()
+	pkg.Sum2()
 }
