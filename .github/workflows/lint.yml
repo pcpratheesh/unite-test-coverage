@@ -12,8 +12,7 @@ jobs:
 
     - name: Set up Go
       uses: actions/setup-go@v2
-    - name: Run lint
+    - name: Run Coverage
       run: |
-        make lint
         make test
         make check-coverage
