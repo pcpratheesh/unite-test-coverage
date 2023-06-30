@@ -1,8 +1,8 @@
 package pkg_test
 
 import (
-	"learning/stack-solutions/golang/unite-test-coverage/pkg"
 	"testing"
+	"unite-test-coverage/pkg"
 )
 
 func TestSum(t *testing.T) {

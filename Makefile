@@ -18,8 +18,3 @@ check-coverage:
     else \
         echo "OK"; \
     fi
-
-lint:
-	go test ./... -coverprofile coverage.out
-	COVERAGE=`go tool cover -func=coverage.out | grep total: | grep -Eo '[0-9]+\.[0-9]+'`
-	echo $COVERAGE
